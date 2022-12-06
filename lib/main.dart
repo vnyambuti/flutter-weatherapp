@@ -24,9 +24,10 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(primarySwatch: Colors.blueGrey),
       title: "Weather",
       home: Scaffold(
+        backgroundColor: Color.fromARGB(255, 175, 183, 186),
         appBar: AppBar(
           centerTitle: true,
-          backgroundColor: Color.fromARGB(255, 161, 168, 171),
+          backgroundColor: Color.fromARGB(255, 103, 127, 138),
           elevation: 0,
         ),
         body: SafeArea(
