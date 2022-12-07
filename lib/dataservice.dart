@@ -8,7 +8,7 @@ class DataService {
   getWeather(String city) async {
     final queryparams = {
       "q": city,
-      "appid": "de1fe0aee95fd46403d44c67594270b8",
+      "appid": "",
       "units": "metric"
     };
     final uri =
